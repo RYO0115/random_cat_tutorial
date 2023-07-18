@@ -26,7 +26,7 @@ const IndexPage: NextPage<Props> = ({initialImageUrl}) => {
   };
   return (
     <div>
-      <button onClick={handleClick}>他のにゃんこも見る</button>
+      <button onClick={handleClick}>View other nyanko!</button>
       <div>{loading || <img src={imageUrl} />}</div>
     </div>
   );
